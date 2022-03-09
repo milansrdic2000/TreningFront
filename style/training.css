@@ -1,0 +1,101 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title-section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 3rem;
+}
+.title-section .tr-info-container {
+  display: flex;
+  justify-content: center;
+}
+.title-section .tr-info-container .tr-info {
+  margin-right: 20px;
+}
+.title-section .tr-progress-container {
+  display: flex;
+  justify-content: center;
+}
+.title-section .tr-action {
+  display: flex;
+  justify-content: space-around;
+}
+
+.out {
+  outline: 1px solid black;
+}
+
+/* Lista sa svim treninzima */
+.training-list-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  /* Pojedinacni trening */
+}
+.training-list-container .training-container {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.training-list-container .training-container .tr-heder {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Lista svih vezbi */
+.exercise-list-container {
+  /* Pojedinacna vezba */
+}
+.exercise-list-container .exercise-container .ex-heder {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+}
+
+/* Lista svih serija */
+.sets-list-container {
+  background-color: green;
+  /* Pojedinacna serija */
+}
+.sets-list-container .sets-container {
+  display: flex;
+}
+.sets-list-container .sets-container .completed-set {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+/* Widget gde se prikazuju info o treningu na donjoj strani */
+.tr-info-widget {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: blue;
+  display: flex;
+  padding: 10px;
+  box-shadow: 4px 2px 14px black;
+}
+
+main {
+  padding-top: 0.1px;
+  min-height: 100vh;
+  background-color: cadetblue;
+}
+
+/*# sourceMappingURL=training.css.map */

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/training.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="title-section">
+        <h1>Jekicin plan treninga</h1>
+        <div class="tr-info-container">
+          <div class="tr-info">Medium</div>
+          <div class="tr-info">4serije</div>
+          <div class="tr-info">Svasta nes</div>
+        </div>
+        <div class="tr-progress-container">
+          <div class="tr-progress">Progres</div>
+          <div class="tr-streak">Strik</div>
+        </div>
+        <div class="tr-action">
+          <div class="status-title">Status</div>
+          <div class="status">Nezapocet</div>
+          <div class="start-training"><button>GOGOGO</button></div>
+        </div>
+      </section>
+      <!-- Lista sa svim treninzima -->
+      <div class="training-list-container out">
+        <!-- Pojedinacni trening -->
+        <div class="training-container out">
+          <!-- Heder za trening, ime i status -->
+          <div class="tr-heder">
+            <h2 class="day-number">Dan 1</h2>
+            <div class="training-status">Completed</div>
+          </div>
+          <!-- Lista svih vezbi -->
+          <div class="exercise-list-container out">
+            <!-- Pojedinacna vezba -->
+            <div class="exercise-container out">
+              <div class="ex-heder">
+                <h2 class="exercise-name">Benc</h2>
+                <div class="exercise-complete">3/4</div>
+              </div>
+              <!-- Lista svih serija -->
+              <div class="sets-list-container">
+                <!-- Pojedinacna serija -->
+                <div class="sets-container">
+                  <div class="completed-set"></div>
+                  <input type="text" placeholder="unesi broj" />
+                </div>
+              </div>
+            </div>
+            <!-- Pojedinacna vezba -->
+            <div class="exercise-container out">
+              <div class="ex-heder">
+                <h2 class="exercise-name">Potisak</h2>
+                <div class="exercise-complete">3/4</div>
+              </div>
+              <!-- Lista svih serija -->
+              <div class="sets-list-container">
+                <!-- Pojedinacna serija -->
+                <div class="sets-container">
+                  <div class="completed-set"></div>
+                  <input type="text" placeholder="unesi broj" />
+                </div>
+                <div class="sets-container">
+                  <div class="completed-set"></div>
+                  <input type="text" placeholder="unesi broj" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pojedinacni trening -->
+        <div class="training-container out">
+          <!-- Heder za trening, ime i status -->
+          <div class="tr-heder">
+            <h2 class="day-number">Dan 1</h2>
+            <div class="training-status">Completed</div>
+          </div>
+          <!-- Lista svih vezbi -->
+          <div class="exercise-list-container out">
+            <!-- Pojedinacna vezba -->
+            <div class="exercise-container out">
+              <div class="ex-heder">
+                <h2 class="exercise-name">Benc</h2>
+                <div class="exercise-complete">3/4</div>
+              </div>
+              <!-- Lista svih serija -->
+              <div class="sets-list-container">
+                <!-- Pojedinacna serija -->
+                <div class="sets-container">
+                  <div class="completed-set"></div>
+                  <input type="text" placeholder="unesi broj" />
+                </div>
+              </div>
+            </div>
+            <!-- Pojedinacna vezba -->
+            <div class="exercise-container out">
+              <div class="ex-heder">
+                <h2 class="exercise-name">Potisak</h2>
+                <div class="exercise-complete">3/4</div>
+              </div>
+              <!-- Lista svih serija -->
+              <div class="sets-list-container">
+                <!-- Pojedinacna serija -->
+                <div class="sets-container">
+                  <div class="completed-set"></div>
+                  <input type="text" placeholder="unesi broj" />
+                </div>
+                <div class="sets-container">
+                  <div class="completed-set"></div>
+                  <input type="text" placeholder="unesi broj" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- LLista treninga END -->
+
+      <!-- Traka na dnu ekrana fixed koja se prikazuje -->
+      <div class="tr-info-widget">
+        <div class="time">12:56</div>
+        <div class="tr-widget-button">
+          <button>Gotovo</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script/trPlan.js"></script>
+  </body>
+</html>
